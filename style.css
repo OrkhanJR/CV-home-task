@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Sono", sans-serif;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1200px;
+  margin: 30px;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0px 5px 10px 13px rgba(34, 60, 80, 0.2);
+}
+.container .leftside {
+  position: relative;
+  background-color: rgb(44, 50, 62);
+  padding: 40px;
+}
+.container .rightside {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  padding: 40px;
+}
+.container .profiletext {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.container .profiletext .image {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.container .profiletext img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container .profiletext h2 {
+  color: whitesmoke;
+  font-size: larger;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 600;
+  line-height: 2em;
+}
+.container .profiletext span {
+  font-size: 0.8em;
+  font-weight: 500;
+}
+.container .contact {
+  color: whitesmoke;
+}
+.container .line_left {
+  border-bottom: 1px solid whitesmoke;
+  margin-top: 20px;
+}
+.container .line_right {
+  border-bottom: 1px solid rgb(46, 50, 62);
+  margin-top: 20px;
+}
+.container .phone {
+  margin-top: 20px;
+  color: whitesmoke;
+  font-size: 15px;
+}
+.container .phone_number {
+  color: whitesmoke;
+  font-size: 15px;
+  margin-top: 8px;
+}
+.container .email {
+  margin-top: 20px;
+  color: whitesmoke;
+  font-size: 15px;
+}
+.container .email_2 {
+  color: whitesmoke;
+  font-size: 15px;
+  margin-top: 8px;
+}
+.container .address {
+  margin-top: 20px;
+  color: whitesmoke;
+  font-size: 15px;
+}
+.container .address_2 {
+  color: whitesmoke;
+  font-size: 15px;
+  margin-top: 8px;
+}
+.container .education {
+  color: whitesmoke;
+  margin-top: 20px;
+}
+.container .university_year {
+  color: whitesmoke;
+  margin-top: 20px;
+  font-size: 15px;
+}
+.container .degree {
+  margin-top: 10px;
+  font-size: 17px;
+  font-weight: 500;
+  color: whitesmoke;
+}
+.container .university {
+  color: whitesmoke;
+  margin-top: 8px;
+  font-size: 15px;
+}
+.container .school_year {
+  color: whitesmoke;
+  margin-top: 20px;
+  font-size: 15px;
+}
+.container .school {
+  color: whitesmoke;
+  margin-top: 8px;
+  font-size: 15px;
+}
+.container .language {
+  color: whitesmoke;
+  margin-top: 20px;
+}
+.container .text {
+  color: whitesmoke;
+  margin-top: 20px;
+}
+.container .circle {
+  background: whitesmoke;
+  border: 1px solid;
+  border-radius: 50%;
+  height: 1.3em;
+  width: 1.3em;
+  display: flex;
+  float: right;
+  margin: 3px;
+}
+.container .circle_2 {
+  background: rgb(89, 95, 107);
+  border: 1px solid;
+  border-radius: 50%;
+  height: 1.3em;
+  width: 1.3em;
+  display: flex;
+  float: right;
+  margin: 3px;
+}
+.container .circle_right {
+  background: rgb(43, 49, 61);
+  border: 1px solid;
+  border-radius: 50%;
+  height: 1.3em;
+  width: 1.3em;
+  display: flex;
+  float: right;
+  margin: 3px;
+}
+.container .circle_right_2 {
+  background: rgb(215, 215, 215);
+  border: 1px solid;
+  border-radius: 50%;
+  height: 1.3em;
+  width: 1.3em;
+  display: flex;
+  float: right;
+  margin: 3px;
+}
+.container .profile {
+  color: rgb 43, 49, 63;
+  margin-top: 100px;
+}
+.container .about {
+  margin-top: 10px;
+  color: rgb 43, 49, 63;
+}
+.container .experience {
+  margin-top: 50px;
+  color: rgb 43, 49, 63;
+}
+.container .date_of_work {
+  margin-top: 20px;
+}
+.container .date_of_work .name_of_work {
+  margin-top: 5px;
+}
+.container .date_of_work .name_of_position {
+  float: right;
+  font-weight: 700;
+  margin-right: 200px;
+}
+.container .date_of_work .about_work {
+  padding-left: 200px;
+}
+.container .skill {
+  margin-top: 10px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,286 @@
+$left-text-color: whitesmoke;
+$right-text-color: rgb (43, 49, 63);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+body {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Sono', sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1200px;
+    margin: 30px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0px 5px 10px 13px rgba(34, 60, 80, 0.2);
+    ;
+
+    .leftside {
+        position: relative;
+        background-color: rgb(44, 50, 62);
+        padding: 40px;
+    }
+
+    .rightside {
+        position: relative;
+        background-color: rgb(255, 255, 255);
+        padding: 40px;
+    }
+
+
+    .profiletext {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 20px;
+
+
+        .image {
+
+            position: relative;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+
+        }
+
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        h2 {
+            color: $left-text-color;
+            font-size: larger;
+            margin-top: 10px;
+            text-align: center;
+            font-weight: 600;
+            line-height: 2em;
+
+        }
+
+        span {
+            font-size: 0.8em;
+            font-weight: 500;
+        }
+
+
+
+    }
+
+    .contact {
+        color: $left-text-color;
+    }
+
+    .line_left {
+        border-bottom: 1px solid whitesmoke;
+        margin-top: 20px;
+    }
+
+    .line_right {
+        border-bottom: 1px solid rgb(46, 50, 62);
+        margin-top: 20px;
+    }
+
+    
+
+    .phone {
+        margin-top: 20px;
+        color: $left-text-color;
+        font-size: 15px;
+    }
+
+    .phone_number {
+        color: $left-text-color;
+        font-size: 15px;
+        margin-top: 8px;
+    }
+
+    .email {
+        margin-top: 20px;
+        color: $left-text-color;
+        font-size: 15px;
+    }
+
+    .email_2 {
+        color: $left-text-color;
+        font-size: 15px;
+        margin-top: 8px;
+    }
+
+    .address {
+        margin-top: 20px;
+        color: $left-text-color;
+        font-size: 15px;
+    }
+
+    .address_2 {
+        color: $left-text-color;
+        font-size: 15px;
+        margin-top: 8px;
+    }
+
+    .education {
+        color: $left-text-color;
+        margin-top: 20px;
+    }
+
+    .university_year{
+        color: $left-text-color;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+
+    .degree{
+        margin-top: 10px;
+        font-size: 17px;
+        font-weight: 500;
+        color: $left-text-color;
+
+
+    }
+
+    .university{
+        color: $left-text-color;
+        margin-top: 8px;
+        font-size: 15px;
+    }
+
+    .school_year{
+        color: $left-text-color;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+
+    .school{
+        color: $left-text-color;
+        margin-top: 8px;
+        font-size: 15px;
+    }
+
+    .language{
+        color: $left-text-color;
+        margin-top: 20px;
+    }
+
+    .text{
+        color: $left-text-color;
+        margin-top: 20px;
+        
+    }
+
+    .circle {
+        background: whitesmoke;
+        border: 1px solid;
+        border-radius: 50%;
+        height: 1.3em;
+        width: 1.3em;
+        display: flex;
+        float: right;
+        margin: 3px;
+      }
+
+   .circle_2{
+    background:rgb(89, 95, 107);
+    border:1px solid;
+    border-radius: 50%;
+    height: 1.3em;
+    width: 1.3em;
+    display: flex;
+    float: right;
+    margin: 3px;
+   }
+
+   .circle_right {
+    background: rgb(43, 49, 61);
+    border: 1px solid;
+    border-radius: 50%;
+    height: 1.3em;
+    width: 1.3em;
+    display: flex;
+    float: right;
+    margin: 3px;
+   }
+
+   .circle_right_2 {
+    background:  rgb(215, 215, 215);
+    border: 1px solid;
+    border-radius: 50%;
+    height: 1.3em;
+    width: 1.3em;
+    display: flex;
+    float: right;
+    margin: 3px;
+   }
+
+   .profile{
+    color: $right-text-color;
+    margin-top: 100px;
+    }
+
+    .about{
+        margin-top: 10px;
+        color: $right-text-color;
+    }
+
+    .experience{
+        margin-top: 50px;
+        color: $right-text-color;
+    }
+
+    .date_of_work{
+        margin-top: 20px;
+
+        .name_of_work{
+            margin-top: 5px;
+        }
+    
+        .name_of_position{
+            float: right;
+            font-weight: 700;
+            margin-right: 200px;
+        }
+    
+        .about_work{
+            padding-left: 200px;
+            
+        }
+        
+      
+    }
+
+    .skill{
+        margin-top: 10px;
+    }
+
+    
+
+
+
+    
+
+    
+
+
+}
