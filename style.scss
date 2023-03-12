@@ -16,6 +16,7 @@ body {
     align-items: center;
     min-height: 100vh;
     font-family: 'Sono', sans-serif;
+    
 }
 
 .container {
@@ -28,7 +29,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 2fr;
     box-shadow: 0px 5px 10px 13px rgba(34, 60, 80, 0.2);
-    ;
+    
 
     .leftside {
         position: relative;
@@ -273,14 +274,5 @@ body {
     .skill{
         margin-top: 10px;
     }
-
-    
-
-
-
-    
-
-    
-
 
 }
